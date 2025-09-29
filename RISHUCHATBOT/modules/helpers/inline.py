@@ -141,12 +141,19 @@ HELP_BUTN = [
         InlineKeyboardButton(
             text="˹ ʜєʟᴘ ᴄσϻϻᴧηᴅ ˼", url=f"https://t.me/{RISHUCHATBOT.username}?start=help"
         ),
+    ],     
+    [
         InlineKeyboardButton(text="⌯ ᴄʟσsє ⌯", callback_data="CLOSE"),
     ],
 ]
 
 
 ABOUT_BTN = [
+    [
+        InlineKeyboardButton(
+            text="˹ ʀєᴘσ ˼", url=f"https://github.com/RishuBot/RishuChatBot"
+        ),
+    ],    
     [
         InlineKeyboardButton(text="˹ sυᴘᴘσʀᴛ ˼", url=f"https://t.me/{SUPPORT_GRP}"),
         InlineKeyboardButton(text="˹ υᴘᴅᴧᴛєs ˼", url=f"https://t.me/{UPDATE_CHNL}")],
