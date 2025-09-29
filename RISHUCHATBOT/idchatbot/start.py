@@ -242,7 +242,7 @@ async def help(client: Client, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@Client.on_message(filters.command("rephhhho", prefixes=[".", "/"]))
+@Client.on_message(filters.command("repo", prefixes=[".", "/"]))
 async def repo(client: Client, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
