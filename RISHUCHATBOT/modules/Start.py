@@ -337,7 +337,7 @@ async def start(_, m: Message):
 ┃
 ╰━━━━━━━ • ◆ • ━━━━━━━➤**""")
         
-
+        await asyncio.sleep(0.01)
         await accha.edit("**__ꨄ︎ ѕ__**")
         await asyncio.sleep(0.01)
         await accha.edit("**__ꨄ sт__**")
